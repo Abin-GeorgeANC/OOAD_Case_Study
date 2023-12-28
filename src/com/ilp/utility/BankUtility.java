@@ -1,8 +1,6 @@
 package com.ilp.utility;
-
 import java.util.ArrayList;
 import java.util.Scanner;
-
 import com.ilp.entity.Customer;
 import com.ilp.entity.Product;
 import com.ilp.entity.Services;
