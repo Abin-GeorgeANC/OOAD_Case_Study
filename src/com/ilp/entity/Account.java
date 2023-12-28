@@ -1,12 +1,12 @@
 package com.ilp.entity;
 
-public  class  Account {
-	
-	
+public class Account {
+
 	private int accountNo;
 	private String accountType;
 	private double accountBalance;
 	Product product;
+
 	public Account(int accountNo, String accountType, double accountBalance, Product product) {
 		this.accountNo = accountNo;
 		this.accountType = accountType;
@@ -37,12 +37,4 @@ public  class  Account {
 	public void setProduct(Product product) {
 		this.product = product;
 	}
-	@Override
-	public String toString() {
-		return "Account [accountNo=" + accountNo + ", accountType=" + accountType + ", accountBalance=" + accountBalance
-				+ ", product=" + product + "]";
-	}
-	
-	
-
 }

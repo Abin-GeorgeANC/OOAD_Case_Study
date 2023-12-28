@@ -1,9 +1,11 @@
 package com.ilp.entity;
+
 public class Services {
-	
+
 	private String serviceCode;
 	private String serviceName;
 	private double serviceRate;
+
 	public Services(String serviceCode, String serviceName, double serviceRate) {
 		this.serviceCode = serviceCode;
 		this.serviceName = serviceName;
@@ -27,14 +29,4 @@ public class Services {
 	public void setServiceRate(double serviceRate) {
 		this.serviceRate = serviceRate;
 	}
-	@Override
-	public String toString() {
-		return "Services [serviceCode=" + serviceCode + ", serviceName=" + serviceName + ", serviceRate=" + serviceRate
-				+ "]";
-	}
-	
-	
-	
-	
-	
 }
