@@ -1,9 +1,7 @@
 package com.ilp.services;
-
 import java.util.ArrayList;
 import java.util.Random;
 import java.util.Scanner;
-
 import com.ilp.entity.Account;
 import com.ilp.entity.CurrentAccount;
 import com.ilp.entity.Customer;
